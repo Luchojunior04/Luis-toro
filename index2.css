@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+    padding: 0 25px;
+}
+
+.icono {
+    width: 300px;
+    object-fit: contain;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1009px;
+    padding: 15px 25px;
+
+}
+
+span {
+    color: rgba(28, 155, 142, 0.945);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+li a {
+    display: flex;
+    color: black;
+    font-weight: 550;
+}
+
+li a:hover {
+    color: rgb(180, 9, 9);
+}
+
+div img {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 350px;
+}
+
+div.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    margin: 10px;
+    padding-right: 370px;
+    font-weight: bolder;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(240, 236, 236);
+    border-radius: 10px;
+}
+
+textarea {
+    height: 250px;
+    resize: none;
+}
+
+
+button {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 6px 6px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(28, 155, 142, 0.945);
+    transition: all 0.3s ease;
+
+}
+
+button:hover {
+    background-color: rgb(110, 107, 107);
+}
